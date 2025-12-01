@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #ffd6e8, #ffe9f2);
+}
+
+.app {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #c2185b;
+  margin-bottom: 25px;
+}
+
+.nova-lista {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #f8bbd0;
+  outline: none;
+}
+
+input:focus {
+  border-color: #ec407a;
+}
+
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #ec407a;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #d81b60;
+}
+
+.card-lista {
+  background: #fff;
+  border-radius: 14px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(236, 64, 122, 0.15);
+}
+
+.topo-lista {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.topo-lista h2 {
+  color: #ad1457;
+  font-size: 18px;
+  margin: 0;
+}
+
+.btn-apagar {
+  background: transparent;
+  color: #e91e63;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.novo-item {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.item {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #880e4f;
+}
+
+/* 🔴 A FAZER */
+li.fazer {
+  background: #fce4ec;
+}
+
+/* 🟡 EM ANDAMENTO */
+li.andamento {
+  background: #f8bbd0;
+}
+
+/* ✅ CONCLUÍDO */
+li.concluido {
+  background: #f48fb1;
+  text-decoration: line-through;
+  opacity: 0.85;
+}
+
+.acoes {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+select {
+  border-radius: 6px;
+  border: 1px solid #f48fb1;
+  padding: 4px;
+}
+
+li button {
+  background: transparent;
+  color: #c2185b;
+  font-size: 14px;
+}
